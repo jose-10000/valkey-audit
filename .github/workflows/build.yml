@@ -2,7 +2,7 @@ name: Build and Push Valkey Audit Module
 
 on:
   push:
-    branches: [ "make-image" ]
+    branches: [ "main", "make-image" ]
   workflow_dispatch:
 
 env:
