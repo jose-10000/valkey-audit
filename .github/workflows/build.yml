@@ -3,6 +3,7 @@ name: Build and Push Valkey Audit Module
 on:
   push:
     branches: [ "make-image" ]
+  workflow_dispatch:
 
 env:
   REGISTRY: ghcr.io
